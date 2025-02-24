@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up.Instagram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="website icon" type="jpg" href="./media/download.jpg">
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        #img{
+            margin-left: 365px;
+            
+        }
+        .photo{
+            height: 620px;
+            width: 400px;
+            margin-bottom: 100px;
+        }
+        #img,#log{
+            display: inline-block;
+            /* padding-top: 50px; */
+        }
+        #field1{
+            height: 640px;
+            width: 370px;
+            text-align: center;
+           
+        }
+        /* #field1,#field2,#bot{
+            margin-left: 580px;
+        } */
+        .in{
+            margin-bottom: 20px;
+            width: 230px;
+            height: 30px;
+            border-radius: 5px;
+            font-size: 10px;
+            padding-left: 10px;
+        }
+        h1{
+            font-size: 50px;
+            font-style: italic;
+            /* margin-bottom: 50px; */
+            display: inline;
+        }
+        #field2{
+            margin-top: 10px;
+            height: 40px;
+            width: 370px;
+            text-align: center;
+        }
+        #b1{
+            width: 240px;
+            height: 30px;
+            border-radius: 7px;
+            background-color: rgb(42, 211, 245);
+            border-color: white;
+            color: white;
+            box-shadow: none;
+            margin-bottom: 20px;
+        }
+        button{
+            width: 240px;
+            height: 30px;
+            border-radius: 7px;
+            background-color: rgb(42, 211, 245);
+            border-color: white;
+            color: white;
+            box-shadow: none;
+        }
+        #bot{
+            text-align: center;
+        }
+        .img{
+            width: 150px;
+            height: 50px;
+            border-radius: 10px;
+        }
+        .icon{
+            margin-right: 10px;
+        }
+        select{
+            margin-left: 250px;
+        }
+        .lang{
+            display: inline-block;
+            margin-right: 10px;
+            border: none;
+            color: rgb(143, 143, 143);
+            font-size: 11px;
+            
+        }
+        .copy{
+            margin-right: 5px;
+        }
+        #foot{
+            margin-left: 370px;
+            
+        }
+        .lin{
+            margin-right: 15px;
+            color: rgb(143, 143, 143);
+            font-size: 11px;
+            margin-top: 25px;
+        }
+        .lin:hover{
+            text-decoration: underline;
+        }
+        #foot{
+            margin-top: 35px;
+        }
+        .p{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <div id="img"><img src="./media/screenshot1.webp" class="photo"></div>
+    <div id="log">
+        <fieldset id="field1">
+            <h1>Instagram</h1>
+            <h3>Sign up to see photos and videos from your friends.</h3>
+            <button id="b1"><i class="fa-brands fa-facebook icon" ></i>Log in with Facebook</button>
+            <p class="p">OR</p>
+            <input type="text" placeholder="Mobile number or email address" class="in"><br>
+            <input type="password" placeholder="Password" class="in"><br>
+            <input type="text" placeholder="Full Name" class="in"><br>
+            <input type="text" placeholder="Username" class="in"><br>
+            <p>People who use our service may have uploaded your contact information to Instagram. <a href="#">Learn more</a></p>
+            <p>By signing up, you agree to our Terms, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a></p>
+            <button>Sign up</button>
+            <!-- <p>OR</p> -->
+            <!-- <p><i class="fa-brands fa-facebook icon" ></i>Log in with Facebook</p> -->
+            <!-- <a href="#"><p>Forgotten your password?</p></a> -->
+        </fieldset>
+        <fieldset id="field2">
+            <p>Have an account? <a href="index.html">Log in</a></p>
+        </fieldset>
+        <div id="bot">
+            <p>Get the app</p>
+            <img src="./media/play.png" class="img">
+            <img src="./media/windows.png" class="img">
+        </div>
+    </div>
+    <div id="foot">
+        <a href="#" class="lin">Meta</a>
+        <a href="#" class="lin">About</a>
+        <a href="#" class="lin">Blog</a>
+        <a href="#" class="lin">Job</a>
+        <a href="#" class="lin">Help</a>
+        <a href="#" class="lin">API</a>
+        <a href="#" class="lin">Privacy</a>
+        <a href="#" class="lin">Terms</a>
+        <a href="#" class="lin">Location</a>
+        <a href="#" class="lin">Instagram Lite</a>
+        <a href="#" class="lin">Threads</a>
+        <a href="#" class="lin">Contact uploading and non-users</a>
+        <a href="#" class="lin">Meta Verified</a><br>
+        <select name="lang" class="lang">
+            <option value="tamil">Tamil</option>
+            <option value="eng">English</option>
+            <option value="uru">Uruthu</option>
+            <option value="tel">Telugu</option>
+            <option value="Mal">Malayalam</option>
+            <option value="kan">Kannada</option>
+            <option value="hin">Hindi</option>
+            <option value="arab">Arabic</option>
+        </select>
+        <p class="lang"><i class="fa-regular fa-copyright copy"></i>2024 Instagram from Meta</p>
+    </div>
+</body>
+</html>
